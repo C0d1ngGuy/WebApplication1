@@ -22,6 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
+        buildContext: '$(Build.Repository.LocalPath)'
         containerRegistry: 'DockerHdO'
         repository: 'test2'
         command: 'buildAndPush'
