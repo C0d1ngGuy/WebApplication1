@@ -24,6 +24,6 @@ stages:
       inputs:
         buildContext: '$(Build.Repository.LocalPath)'
         containerRegistry: 'DockerHdO'
-        repository: 'test2'
+        repository: 'devgiovannifernandes/test2'
         command: 'buildAndPush'
         Dockerfile: '**/*Dockerfile'
