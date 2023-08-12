@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '$(Build.SourcesDirectory)/WebApplication1/Dockerfile'
+        dockerfile: '**/*Dockerfile'
         tags: |
           $(tag)
     - task: Docker@2
