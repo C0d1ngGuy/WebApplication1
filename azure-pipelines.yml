@@ -27,3 +27,5 @@ stages:
         repository: 'devgiovannifernandes/test2'
         command: 'buildAndPush'
         Dockerfile: '**/*Dockerfile'
+    - publish: $(System.DefaultWorkingDirectory)/docker-compose.yml
+      artifact: compose2
