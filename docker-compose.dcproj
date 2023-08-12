@@ -9,6 +9,10 @@
     <DockerServiceName>webapplication1</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="docker-compose - Cópia.override.yml">
+      <DependentUpon>docker-compose.yml</DependentUpon>
+    </None>
+    <None Include="stack-compose.yml" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
