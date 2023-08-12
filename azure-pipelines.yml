@@ -25,4 +25,4 @@ stages:
         containerRegistry: 'DockerHdO'
         repository: 'test2'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: '**/*Dockerfile'
